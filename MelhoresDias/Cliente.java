@@ -3,7 +3,7 @@ import java.time.LocalDate;
 import java.time.format.TextStyle;
 import java.util.Locale;
 
-public class DiasDaSemana {
+public class Cliente {
     public static String diaDaSemanaAtual(){
         DayOfWeek diaAtualDaSemana = LocalDate.now().getDayOfWeek();
         String nomeDiaSemana = diaAtualDaSemana.getDisplayName(TextStyle.FULL, Locale.getDefault());
